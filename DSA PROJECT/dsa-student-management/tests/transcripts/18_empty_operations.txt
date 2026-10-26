@@ -1,0 +1,326 @@
+Loading records from students.csv...
+No existing data file found. Starting with an empty list.
+A new students.csv will be created after the first change.
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 2
+
+ALL STUDENT RECORDS
+----------------------------------------------------------------------------------
+  No students are stored yet. Use menu 1 to add a record.
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 3
+
+SEARCH STUDENT
+----------------------------------------------------------------------------------
+   1. Linear search by student ID
+   2. Binary search by student ID
+   3. Linear search by last name
+   0. Back to main menu
+----------------------------------------------------------------------------------
+Enter choice: 1
+
+  No records are available to search.
+
+Press Enter to continue...
+SEARCH STUDENT
+----------------------------------------------------------------------------------
+   1. Linear search by student ID
+   2. Binary search by student ID
+   3. Linear search by last name
+   0. Back to main menu
+----------------------------------------------------------------------------------
+Enter choice: 0
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 4
+
+UPDATE STUDENT
+----------------------------------------------------------------------------------
+  No records are available to update.
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 5
+
+DELETE STUDENT
+----------------------------------------------------------------------------------
+  No records are available to delete.
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 6
+
+SORT STUDENT RECORDS
+----------------------------------------------------------------------------------
+  At least two records are needed to demonstrate sorting.
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 7
+
+RECENTLY DELETED STACK (LIFO)
+----------------------------------------------------------------------------------
+Stack size: 0
+Top record: (none)
+Push is automatic when a record is deleted (menu 5).
+----------------------------------------------------------------------------------
+   1. Pop and restore the most recent record
+   2. Peek at the top record
+   3. Display the whole stack
+   0. Back to main menu
+Enter choice: 3
+
+  (the recently deleted stack is empty)
+
+Press Enter to continue...
+RECENTLY DELETED STACK (LIFO)
+----------------------------------------------------------------------------------
+Stack size: 0
+Top record: (none)
+Push is automatic when a record is deleted (menu 5).
+----------------------------------------------------------------------------------
+   1. Pop and restore the most recent record
+   2. Peek at the top record
+   3. Display the whole stack
+   0. Back to main menu
+Enter choice: 0
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 8
+
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 0
+Next to serve  : (none)
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 2
+
+The queue is empty. There is no student to serve.
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 0
+Next to serve  : (none)
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 0
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 9
+
+STUDENT STATISTICS
+----------------------------------------------------------------------------------
+  No records are available. Add a student first.
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 0
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.

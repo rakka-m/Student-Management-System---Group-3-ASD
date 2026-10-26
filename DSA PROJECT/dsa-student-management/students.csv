@@ -1,0 +1,17 @@
+id,firstName,lastName,course,yearLevel,gpa
+202400013,Gabriel,Aquino,BSIT,1,2.75
+202400001,Juan,Dela Cruz,BSIT,2,1.50
+202400015,Rafael,Domingo,BSCS,4,2.00
+202400006,Liza,Fernandez,BSCS,2,4.00
+202400009,Daniel,Garcia,BSCS,1,2.25
+202400008,Grace,Lim,BSIT,3,1.00
+200000,Emmanuel,Medina,BSIT,2,1.50
+202400007,Paolo,Mendoza,BSBA,1,2.50
+202400012,Camille,Navarro,BSCS,3,1.50
+202400004,Ana,O'Connor,BSBA,2,1.75
+202400010,Sofia,Ramirez,BSBA,4,5.00
+202400014,Patricia,Ramos,BSBA,3,1.50
+202400003,Jose,Reyes,BSIT,3,2.00
+202400002,Maria,Santos,BSCS,1,1.25
+202400011,Miguel,Torres,BS Information Technology,2,1.88
+202400005,Mark,Villanueva,BSIT,4,3.00

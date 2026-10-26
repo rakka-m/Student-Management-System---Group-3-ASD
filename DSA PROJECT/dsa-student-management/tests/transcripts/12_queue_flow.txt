@@ -1,0 +1,232 @@
+Loading records from students.csv...
+Loaded 15 record(s).
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 8
+
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 0
+Next to serve  : (none)
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 1
+Student ID to enqueue: 202400001
+
+Purpose of visit:
+   1. Enrollment
+   2. Records / Transcript
+   3. Payment
+   4. Consultation
+   5. Other
+Enter choice: 1
+
+Enqueued Dela Cruz, Juan at position 1.
+The service queue is session-only; it is not written to students.csv.
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 1
+Next to serve  : Dela Cruz, Juan (202400001) - Enrollment
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 1
+Student ID to enqueue: 202400002
+
+Purpose of visit:
+   1. Enrollment
+   2. Records / Transcript
+   3. Payment
+   4. Consultation
+   5. Other
+Enter choice: 2
+
+Enqueued Santos, Maria at position 2.
+The service queue is session-only; it is not written to students.csv.
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 2
+Next to serve  : Dela Cruz, Juan (202400001) - Enrollment
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 1
+Student ID to enqueue: 202400001
+
+That student is already waiting in the queue.
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 2
+Next to serve  : Dela Cruz, Juan (202400001) - Enrollment
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 
+  Invalid input. Enter a whole number from 0 to 4.
+Enter choice: 3
+
+NEXT STUDENT (front of queue)
+----------------------------------------------------------------------------------
+  Student : Dela Cruz, Juan (202400001)
+  Purpose : Enrollment
+  Queued  : 2026-10-23 18:14:21
+  Position: 1 of 2
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 2
+Next to serve  : Dela Cruz, Juan (202400001) - Enrollment
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 4
+
+POS    STUDENT ID  NAME (Last, First)            PURPOSE                  QUEUED AT
+------------------------------------------------------------------------------------------------
+1      202400001   Dela Cruz, Juan               Enrollment               2026-10-23 18:14:21
+2      202400002   Santos, Maria                 Records / Transcript     2026-10-23 18:14:21
+
+  FRONT = position 1 (next to be served), REAR = position 2
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 2
+Next to serve  : Dela Cruz, Juan (202400001) - Enrollment
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 2
+
+NOW SERVING (front of queue)
+----------------------------------------------------------------------------------
+  Student  : Dela Cruz, Juan (202400001)
+  Purpose  : Enrollment
+  Queued   : 2026-10-23 18:14:21
+  Served   : 2026-10-23 18:14:21
+  Remaining: 1 student(s)
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 1
+Next to serve  : Santos, Maria (202400002) - Records / Transcript
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 2
+
+NOW SERVING (front of queue)
+----------------------------------------------------------------------------------
+  Student  : Santos, Maria (202400002)
+  Purpose  : Records / Transcript
+  Queued   : 2026-10-23 18:14:21
+  Served   : 2026-10-23 18:14:21
+  Remaining: 0 student(s)
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 0
+Next to serve  : (none)
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 2
+
+The queue is empty. There is no student to serve.
+
+Press Enter to continue...
+STUDENT SERVICE QUEUE (FIFO)
+----------------------------------------------------------------------------------
+Students waiting: 0
+Next to serve  : (none)
+----------------------------------------------------------------------------------
+   1. Enqueue a student
+   2. Dequeue (serve the next student)
+   3. Peek at the next student
+   4. Display the queue
+   0. Back to main menu
+Enter choice: 0
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.

@@ -1,0 +1,100 @@
+Loading records from students.csv...
+Loaded 15 record(s).
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 2
+
+ALL STUDENT RECORDS
+----------------------------------------------------------------------------------
+ID         NAME (Last, First)            COURSE                YR   GPA    
+---------------------------------------------------------------------------
+202400001  Dela Cruz, Juan               BSIT                  2    1.50   
+202400002  Santos, Maria                 BSCS                  1    1.25   
+202400003  Reyes, Jose                   BSIT                  3    2.00   
+202400004  O'Connor, Ana                 BSBA                  2    1.75   
+202400005  Villanueva, Mark              BSIT                  4    3.00   
+202400006  Fernandez, Liza               BSCS                  2    4.00   
+202400007  Mendoza, Paolo                BSBA                  1    2.50   
+202400008  Lim, Grace                    BSIT                  3    1.00   
+202400009  Garcia, Daniel                BSCS                  1    2.25   
+202400010  Ramirez, Sofia                BSBA                  4    5.00   
+202400011  Torres, Miguel                BS Information Tec... 2    1.88   
+202400012  Navarro, Camille              BSCS                  3    1.50   
+202400013  Aquino, Gabriel               BSIT                  1    2.75   
+202400014  Ramos, Patricia               BSBA                  3    1.50   
+202400015  Domingo, Rafael               BSCS                  4    2.00   
+
+  Records shown        : 15
+  Recursive count      : 15
+
+Display the records again in reverse order using recursion? [y/N]: y
+
+REVERSE ORDER (recursive traversal)
+----------------------------------------------------------------------------------
+ID         NAME (Last, First)            COURSE                YR   GPA    
+---------------------------------------------------------------------------
+202400015  Domingo, Rafael               BSCS                  4    2.00   
+202400014  Ramos, Patricia               BSBA                  3    1.50   
+202400013  Aquino, Gabriel               BSIT                  1    2.75   
+202400012  Navarro, Camille              BSCS                  3    1.50   
+202400011  Torres, Miguel                BS Information Tec... 2    1.88   
+202400010  Ramirez, Sofia                BSBA                  4    5.00   
+202400009  Garcia, Daniel                BSCS                  1    2.25   
+202400008  Lim, Grace                    BSIT                  3    1.00   
+202400007  Mendoza, Paolo                BSBA                  1    2.50   
+202400006  Fernandez, Liza               BSCS                  2    4.00   
+202400005  Villanueva, Mark              BSIT                  4    3.00   
+202400004  O'Connor, Ana                 BSBA                  2    1.75   
+202400003  Reyes, Jose                   BSIT                  3    2.00   
+202400002  Santos, Maria                 BSCS                  1    1.25   
+202400001  Dela Cruz, Juan               BSIT                  2    1.50   
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.

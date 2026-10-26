@@ -1,0 +1,122 @@
+Loading records from students.csv...
+Loaded 15 record(s).
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 3
+
+SEARCH STUDENT
+----------------------------------------------------------------------------------
+   1. Linear search by student ID
+   2. Binary search by student ID
+   3. Linear search by last name
+   0. Back to main menu
+----------------------------------------------------------------------------------
+Enter choice: 1
+Enter student ID: 202400008
+
+RECORD FOUND
+----------------------------------------------------------------------------------
+  ID       : 202400008
+  Name     : Lim, Grace
+  Course   : BSIT
+  Year     : 3
+  GPA      : 1.00  (1.00 is best)
+
+Linear search comparisons: 8
+Linear search is O(n): in the worst case it inspects every
+record because a linked list has no direct index.
+
+Press Enter to continue...
+SEARCH STUDENT
+----------------------------------------------------------------------------------
+   1. Linear search by student ID
+   2. Binary search by student ID
+   3. Linear search by last name
+   0. Back to main menu
+----------------------------------------------------------------------------------
+Enter choice: 1
+Enter student ID: 999999999
+
+No student with ID 999999999 was found.
+
+Linear search comparisons: 15
+Linear search is O(n): in the worst case it inspects every
+record because a linked list has no direct index.
+
+Press Enter to continue...
+SEARCH STUDENT
+----------------------------------------------------------------------------------
+   1. Linear search by student ID
+   2. Binary search by student ID
+   3. Linear search by last name
+   0. Back to main menu
+----------------------------------------------------------------------------------
+Enter choice: 3
+Enter last name or part of it: lim
+
+Linear name search examined 15 record(s).
+1 matching record(s):
+
+ID         NAME (Last, First)            COURSE                YR   GPA    
+---------------------------------------------------------------------------
+202400008  Lim, Grace                    BSIT                  3    1.00   
+
+Press Enter to continue...
+SEARCH STUDENT
+----------------------------------------------------------------------------------
+   1. Linear search by student ID
+   2. Binary search by student ID
+   3. Linear search by last name
+   0. Back to main menu
+----------------------------------------------------------------------------------
+Enter choice: 0
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.

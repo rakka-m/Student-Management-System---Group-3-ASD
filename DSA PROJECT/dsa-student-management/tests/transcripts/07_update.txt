@@ -1,0 +1,83 @@
+Loading records from students.csv...
+Loaded 15 record(s).
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 4
+
+UPDATE STUDENT
+----------------------------------------------------------------------------------
+Student ID to update: 202400007
+
+Current record:
+  ID       : 202400007
+  Name     : Mendoza, Paolo
+  Course   : BSBA
+  Year     : 1
+  GPA      : 2.50  (1.00 is best)
+
+Press Enter on any field to keep its current value.
+First name [Paolo]: Paolo
+Last name [Mendoza]: Mendoza
+Course [BSBA]: BSIT
+Year level [1]: 2
+GPA [2.50]: 1.60
+
+Proposed record:
+  ID       : 202400007
+  Name     : Mendoza, Paolo
+  Course   : BSIT
+  Year     : 2
+  GPA      : 1.60  (1.00 is best)
+Save this update? [Y/n]: y
+
+Record updated and saved to students.csv.
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.

@@ -1,0 +1,96 @@
+Loading records from students.csv...
+Loaded 15 record(s).
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 6
+
+SORT STUDENT RECORDS
+----------------------------------------------------------------------------------
+Sort by:
+   1. Student ID
+   2. Last name
+   3. GPA (1.00 best first)
+Enter choice: 2
+
+Algorithm:
+   1. Bubble sort
+   2. Selection sort
+Enter choice: 2
+
+Sorted by Last Name using selection sort.
+Comparisons: 105   Swaps: 10
+Elapsed time: 0.022 ms
+Selection sort: O(n^2) comparisons in every case, at most
+n-1 swaps, and not stable because of long-distance swaps.
+The list is not sorted by ID now. A later binary search will
+prepare a sorted pointer array first.
+
+SORTED RECORDS
+----------------------------------------------------------------------------------
+ID         NAME (Last, First)            COURSE                YR   GPA    
+---------------------------------------------------------------------------
+202400013  Aquino, Gabriel               BSIT                  1    2.75   
+202400001  Dela Cruz, Juan               BSIT                  2    1.50   
+202400015  Domingo, Rafael               BSCS                  4    2.00   
+202400006  Fernandez, Liza               BSCS                  2    4.00   
+202400009  Garcia, Daniel                BSCS                  1    2.25   
+202400008  Lim, Grace                    BSIT                  3    1.00   
+202400007  Mendoza, Paolo                BSBA                  1    2.50   
+202400012  Navarro, Camille              BSCS                  3    1.50   
+202400004  O'Connor, Ana                 BSBA                  2    1.75   
+202400010  Ramirez, Sofia                BSBA                  4    5.00   
+202400014  Ramos, Patricia               BSBA                  3    1.50   
+202400003  Reyes, Jose                   BSIT                  3    2.00   
+202400002  Santos, Maria                 BSCS                  1    1.25   
+202400011  Torres, Miguel                BS Information Tec... 2    1.88   
+202400005  Villanueva, Mark              BSIT                  4    3.00   
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.

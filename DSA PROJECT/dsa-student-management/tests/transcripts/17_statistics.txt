@@ -1,0 +1,78 @@
+Loading records from students.csv...
+Loaded 15 record(s).
+
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 9
+
+STUDENT STATISTICS
+----------------------------------------------------------------------------------
+  Total students (counter)            : 15
+  Total students (recursive count)    : 15
+  Average GPA                         : 2.26
+  Highest GPA (best, lowest value)    : 1.00
+    Lim, Grace (202400008)
+  Lowest GPA (highest value)          : 5.00
+    Ramirez, Sofia (202400010)
+
+GPA BANDS
+----------------------------------------------------------------------------------
+  Passing (GPA <= 3.00)   : 13  (86.7%)
+  Failing / at-risk (GPA > 3.00): 2  (13.3%)
+  Dean's list (GPA <= 1.75): 6  (40.0%)
+
+COURSE DISTRIBUTION
+----------------------------------------------------------------------------------
+  BSCS                            5    33.3%
+  BSIT                            5    33.3%
+  BSBA                            4    26.7%
+  BS Information Technology       1     6.7%
+
+Press Enter to continue...
+==================================================================================
+                      PLMUN STUDENT RECORD MANAGEMENT SYSTEM
+             Singly Linked List | Stack | Queue | Searching | Sorting
+==================================================================================
+  Records in memory : 15
+  Recently deleted  : 0
+  Students in line  : 0
+  Data file         : students.csv  (auto-save)
+----------------------------------------------------------------------------------
+
+MAIN MENU
+   1. Add Student
+   2. Display All Students
+   3. Search Student
+   4. Update Student
+   5. Delete Student
+   6. Sort Students
+   7. Recently Deleted Stack
+   8. Student Service Queue
+   9. Student Statistics
+  10. Exit
+----------------------------------------------------------------------------------
+Enter choice: 10
+Save data and exit [Y/n]: y
+
+Data saved to students.csv.
+Goodbye.
